@@ -45,7 +45,7 @@
 }
 
 .button-box {
-    width: 22%;
+    width: fit-content;
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -96,11 +96,13 @@
     background: black;
     padding: 0px 0px;
     height: 100px;
-    width: 1350px;
+    width: 120vh;
     rotate: -4deg;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    right: 10vh;
 }
 
 .line-text {
