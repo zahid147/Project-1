@@ -2,8 +2,7 @@
 
 body {
     background-color: rgb(31, 29, 29);
-    padding: 0px 0px;
-    margin: 0px;
+    overflow-x: hidden;
 }
 
 * {
