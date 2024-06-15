@@ -94,21 +94,19 @@
 
 .tilted-line {
     background: black;
-    padding: 0px 0px;
     height: 100px;
-    width: 120%;
-    rotate: -4deg;
-    display: flex;
-    flex-direction: column;
+    width: 110%;
+    transform: rotate(-4deg);
     justify-content: center;
     position: relative;
-    right: 10%;
+    right: 5%;
 }
 
 .line-text {
     font-size: 30px;
     display: flex;
     justify-content: space-between;
+    padding: 0px 20px;
 }
 
 .text-star1 {
@@ -177,7 +175,7 @@
 
 .award-box {
     background-color: black;
-    height: 200px;
+    height: fit-content;
     padding-bottom: 20px;
 }
 
