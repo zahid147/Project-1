@@ -96,7 +96,7 @@
     background: black;
     padding: 0px 0px;
     height: 100px;
-    width: 120vh;
+    width: 120%;
     rotate: -4deg;
     display: flex;
     flex-direction: column;
